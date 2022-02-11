@@ -1,0 +1,95 @@
+.col-1 {
+  background-color: #373B53;
+  width: 80px;
+  height: 1199px;
+}
+
+.nav-item {
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 23px;
+  ;
+  margin-bottom: 30px;
+}
+
+.col-1 {
+  margin: 0px;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  height: 42px;
+}
+
+input {
+  height: 42px;
+  width: 0;
+  padding: 0 42px 0 15px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  transition: .4s cubic-bezier(0, 0.8, 0, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+input:focus {
+  width: 300px;
+  z-index: 1;
+  border-bottom: 2px solid #e2e1dd;
+}
+
+.button-top {
+
+  border: none;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.button-top:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+.nav-item {
+  padding-right: 25px;
+}
+
+.vl {
+  border-left: 2px solid rgb(199, 199, 199);
+  height: 32px;
+  padding-right: 25px;
+  margin-top: 5px;
+}
+
+.button-right {
+  border: 0px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.container-fluid
+.button-top {
+  background: #E5E5E5;
+}
