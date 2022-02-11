@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .col-1 {
   background-color: #373B53;
   width: 80px;
@@ -10,7 +14,6 @@
 
 .btn {
   padding: 23px;
-  ;
   margin-bottom: 30px;
 }
 
@@ -20,10 +23,6 @@
 
 .navbar-brand {
   margin-left: 40px;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 form {
@@ -89,7 +88,70 @@ input:focus {
   margin-top: 10px;
 }
 
-.container-fluid
+.container-fluid,
 .button-top {
-  background: #E5E5E5;
+  background-color: #E5E5E5;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.container-fluid {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 40;
+  background-color: #E5E5E5;
+}
+
+.navbar-brand {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #27262D;
+}
+
+.applications {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 3px solid rgb(90, 86, 86);
+  border-radius: 25px;
+}
+
+.applications_table {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #27262D;
+}
+
+.message_number {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #9FA2B4;
+}
+
+.applications_icon {
+  margin-right: 8px;
+
+}
+
+.applications_text {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.25px;
+  color: #9FA2B4;
+  
 }
